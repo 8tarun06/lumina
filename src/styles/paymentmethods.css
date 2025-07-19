@@ -1,0 +1,134 @@
+.payment-methods {
+  background-color: #000;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 6rem;
+}
+
+
+.payment-methods h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.payment-form {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.payment-form input,
+.payment-form select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #444;
+  font-size: 1rem;
+}
+
+.payment-form input::placeholder {
+  color: #aaa;
+}
+
+.payment-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ba93b1;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #d5b3ce;
+}
+
+.payment-form .scan-btn {
+  background-color: #333;
+  color: #eee;
+  margin-top: -0.5rem;
+}
+
+.expiry-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.cards-grid {
+  display: flex;
+  flex-direction: column; /* 🔥 Vertical row */
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 0 1px #eee;
+  margin-top: 1rem;
+  background-color: transparent;
+}
+
+.card-box {
+  background-color:transparent;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  width: 280px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: 0.3s;
+}
+
+.cards-grid:hover {
+  box-shadow: 0 0 14px rgba(186, 147, 177, 0.4);
+}
+
+.card-box p {
+  font-size: 0.95rem;
+}
+
+.card-box button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  color: #ff5c5c;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-box button:hover {
+  text-decoration: underline;
+}
+
+
+.card-input-wrapper {
+  position: relative;
+}
+
+.card-input-wrapper input {
+  padding-right: 42px;
+}
+
+.card-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.8;
+}
