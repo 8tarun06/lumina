@@ -249,7 +249,7 @@ showModal({
 
         <div className="search-bar-container">
           <button className="search-icon" onClick={handleSearchIconClick}>
-            <img src="/public/search.png" alt="Search" className="search-icon-img" />
+            <img src="search.png" alt="Search" className="search-icon-img" />
           </button>
 
           <div className={`search-input-wrapper ${searchActive ? "active" : ""}`}>

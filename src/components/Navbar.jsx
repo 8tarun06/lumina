@@ -57,7 +57,7 @@ function Navbar({ cartCount }) {
 
       <div className="search-bar-container">
         <button className="search-icon" onClick={handleSearchIconClick}>
-          <img src="/public/search.png" alt="Search" className="search-icon-img" />
+          <img src="search.png" alt="Search" className="search-icon-img" />
         </button>
 
         <div className={`search-input-wrapper ${searchActive ? "active" : ""}`}>
@@ -73,7 +73,7 @@ function Navbar({ cartCount }) {
               }}
             />
             <button className="mic-icon" onClick={startVoiceInput}>
-              <img src="/public/mic.png" alt="Mic" className="mic-icon-img" />
+              <img src="mic.png" alt="Mic" className="mic-icon-img" />
             </button>
           </div>
         </div>

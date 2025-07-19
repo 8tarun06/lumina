@@ -161,7 +161,7 @@ function Wishlist() {
         <div className="search-bar-container">
           <button className="search-icon" onClick={handleSearchIconClick}>
             <img
-              src="/public/search.png"
+              src="search.png"
               alt="Search"
               className="search-icon-img"
             />
@@ -184,7 +184,7 @@ function Wishlist() {
               />
               <button className="mic-icon" onClick={startVoiceInput}>
                 <img
-                  src="/public/mic.png"
+                  src="mic.png"
                   alt="Mic"
                   className="mic-icon-img"
                 />
