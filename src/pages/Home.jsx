@@ -265,7 +265,7 @@ showModal({
                 }}
               />
               <button className="mic-icon" onClick={startVoiceInput}>
-                <img src="/public/mic.png" alt="Mic" className="mic-icon-img" />
+                <img src="mic.png" alt="Mic" className="mic-icon-img" />
               </button>
             </div>
           </div>
