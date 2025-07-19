@@ -159,7 +159,7 @@ showModal({
         <div className="google-icon-wrapper">
           <img
             className="google-icon"
-            src="./public/google-icon.png"
+            src="/public/google-icon.png"
             alt="Google sign-in"
           />
         </div>
