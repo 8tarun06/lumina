@@ -162,7 +162,7 @@ function Checkout() {
         const amountInPaisa = totalAmount * 100;
 
         const razorpayOptions = {
-          key: "rzp_test_wKCDhkFh4tbwTB",
+          key: "rzp_test_ikbunZzNHUsQrS",
           amount: amountInPaisa,
           currency: "INR",
           name: "P_Lumina",
